@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next mist use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -93,7 +93,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -215,6 +215,170 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://jojo010602.github.io/2020/02/22/hw/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="相前进_">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Qianjin'">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/02/22/hw/" itemprop="url">hw</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-22T17:59:58+08:00">
+                2020-02-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>const scanf = require(‘scanf’);</p>
+<p>console.log(‘欢迎进入电子钱包’);</p>
+<p>let qian = 0</p>
+<p>while(1){<br>    console.log(‘1—存’);<br>    console.log(‘2—取’);<br>    console.log(‘3—显示’);<br>    console.log(‘4—推出’);<br>    console.log(‘输入相应代码进入相应功能’);<br>    let code = scanf(‘%d’);</p>
+<pre><code>if(code === 1){
+    console.log(&apos;请输入存入的金额&apos;)
+    let c=scanf(&apos;%d&apos;)
+    qian +=c
+    console.log(&apos;存入成功，回车返回&apos;);
+    scanf(&apos;%d&apos;)
+}
+if(code ===2){
+    if(qian === 0){
+        console.log(&apos;已经没有钱可以取了-_-&apos;)
+    }else
+    {console.log(&apos;请输入取出的金额&apos;)
+    let q = scanf(&apos;%d&apos;)
+    if(q&gt;qian){
+        console.log(&apos;余额不足，当前余额：&apos;,qian )
+        console.log(&apos;是否全部取出（Y/N）&apos;);  
+        let a =scanf(&apos;%S&apos;) 
+
+        if(a===&apos;y&apos;||a===&apos;Y&apos;){
+            qian-=qian
+            console.log(&apos;已全部取出余额为：&apos;,qian,&apos;回车返回&apos;)
+            scanf(&apos;%d&apos;)
+        }if(a===&apos;n&apos;||a===&apos;N&apos;){
+            console.log(&apos;取消取出行为，当前余额为：&apos;,qian,&apos;回车返回&apos; )
+            scanf(&apos;%d&apos;)
+        }
+
+    }else{
+        qian -= q
+        console.log(&apos;取出成功，回车返回&apos;)  
+        scanf(&apos;%d&apos;) 
+    }  }
+}
+if(code === 3){
+    console.log(&apos;当前余额:&apos;,qian)
+    console.log(&apos;显示成功，回车返回&apos;);
+    scanf(&apos;%d&apos;)
+}
+if(code ===  4){
+    console.log(&apos;程序退出&apos;);
+    break;
+}</code></pre><h2 id=""><a href="#" class="headerlink" title="}"></a>}</h2>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -394,7 +558,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -402,6 +566,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
@@ -453,7 +626,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
 
 
 
