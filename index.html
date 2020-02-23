@@ -299,54 +299,15 @@
 
       
         
-          
-            <p>const scanf = require(‘scanf’);</p>
+          <p>const scanf = require(‘scanf’);</p>
 <p>console.log(‘欢迎进入电子钱包’);</p>
-<p>let qian = 0</p>
-<p>while(1){<br>    console.log(‘1—存’);<br>    console.log(‘2—取’);<br>    console.log(‘3—显示’);<br>    console.log(‘4—推出’);<br>    console.log(‘输入相应代码进入相应功能’);<br>    let code = scanf(‘%d’);</p>
-<pre><code>if(code === 1){
-    console.log(&apos;请输入存入的金额&apos;)
-    let c=scanf(&apos;%d&apos;)
-    qian +=c
-    console.log(&apos;存入成功，回车返回&apos;);
-    scanf(&apos;%d&apos;)
-}
-if(code ===2){
-    if(qian === 0){
-        console.log(&apos;已经没有钱可以取了-_-&apos;)
-    }else
-    {console.log(&apos;请输入取出的金额&apos;)
-    let q = scanf(&apos;%d&apos;)
-    if(q&gt;qian){
-        console.log(&apos;余额不足，当前余额：&apos;,qian )
-        console.log(&apos;是否全部取出（Y/N）&apos;);  
-        let a =scanf(&apos;%S&apos;) 
-
-        if(a===&apos;y&apos;||a===&apos;Y&apos;){
-            qian-=qian
-            console.log(&apos;已全部取出余额为：&apos;,qian,&apos;回车返回&apos;)
-            scanf(&apos;%d&apos;)
-        }if(a===&apos;n&apos;||a===&apos;N&apos;){
-            console.log(&apos;取消取出行为，当前余额为：&apos;,qian,&apos;回车返回&apos; )
-            scanf(&apos;%d&apos;)
-        }
-
-    }else{
-        qian -= q
-        console.log(&apos;取出成功，回车返回&apos;)  
-        scanf(&apos;%d&apos;) 
-    }  }
-}
-if(code === 3){
-    console.log(&apos;当前余额:&apos;,qian)
-    console.log(&apos;显示成功，回车返回&apos;);
-    scanf(&apos;%d&apos;)
-}
-if(code ===  4){
-    console.log(&apos;程序退出&apos;);
-    break;
-}</code></pre><h2 id=""><a href="#" class="headerlink" title="}"></a>}</h2>
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/02/22/hw/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -464,7 +425,8 @@ if(code ===  4){
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+            <a id="more"></a>
+<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
