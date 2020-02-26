@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Node," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,18 +79,25 @@
 
 
 
-<meta name="description" content="const scanf &#x3D; require(‘scanf’); console.log(‘欢迎进入电子钱包’);">
+<meta name="description" content="P00计算机网络体系结构">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hw">
-<meta property="og:url" content="https://jojo010602.github.io/2020/02/22/hw/index.html">
+<meta property="og:title" content="计算机网络仿真实验">
+<meta property="og:url" content="https://jojo010602.github.io/2020/02/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C/index.html">
 <meta property="og:site_name" content="Qianjin&#39;">
-<meta property="og:description" content="const scanf &#x3D; require(‘scanf’); console.log(‘欢迎进入电子钱包’);">
+<meta property="og:description" content="P00计算机网络体系结构">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-02-22T09:59:58.000Z">
-<meta property="article:modified_time" content="2020-02-23T02:39:20.551Z">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3UcmqA.png">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3Ug00A.png">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3Ugb1U.png">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3UR8xO.png">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3UR3RK.png">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3URKaR.png">
+<meta property="og:image" content="https://s2.ax1x.com/2020/02/26/3URjF1.png">
+<meta property="article:published_time" content="2020-02-26T07:26:59.000Z">
+<meta property="article:modified_time" content="2020-02-26T10:13:30.219Z">
 <meta property="article:author" content="Xiang&#39;">
-<meta property="article:tag" content="Node">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.ax1x.com/2020/02/26/3UcmqA.png">
 
 
 
@@ -120,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="https://jojo010602.github.io/2020/02/22/hw/"/>
+  <link rel="canonical" href="https://jojo010602.github.io/2020/02/26/计算机网络仿真实验/"/>
 
 
 
 
 
-  <title>hw | Qianjin'</title>
+  <title>计算机网络仿真实验 | Qianjin'</title>
   
 
 
@@ -233,7 +240,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://jojo010602.github.io/2020/02/22/hw/">
+    <link itemprop="mainEntityOfPage" href="https://jojo010602.github.io/2020/02/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xiang'">
@@ -250,7 +257,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hw</h1>
+          <h1 class="post-title" itemprop="name headline">计算机网络仿真实验</h1>
         
 
         <div class="post-meta">
@@ -262,8 +269,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-22T17:59:58+08:00">
-                2020-02-22
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-26T15:26:59+08:00">
+                2020-02-26
               </time>
             
 
@@ -300,53 +307,29 @@
       
 
       
-        <p>const scanf = require(‘scanf’);</p>
-<p>console.log(‘欢迎进入电子钱包’);</p>
-<a id="more"></a>
-<p>let qian = 0</p>
-<p>while(1){<br>    console.log(‘1—存’);<br>    console.log(‘2—取’);<br>    console.log(‘3—显示’);<br>    console.log(‘4—推出’);<br>    console.log(‘输入相应代码进入相应功能’);<br>    let code = scanf(‘%d’);</p>
-<pre><code>if(code === 1){
-    console.log(&apos;请输入存入的金额&apos;)
-    let c=scanf(&apos;%d&apos;)
-    qian +=c
-    console.log(&apos;存入成功，回车返回&apos;);
-    scanf(&apos;%d&apos;)
-}
-if(code ===2){
-    if(qian === 0){
-        console.log(&apos;已经没有钱可以取了-_-&apos;)
-    }else
-    {console.log(&apos;请输入取出的金额&apos;)
-    let q = scanf(&apos;%d&apos;)
-    if(q&gt;qian){
-        console.log(&apos;余额不足，当前余额：&apos;,qian )
-        console.log(&apos;是否全部取出（Y/N）&apos;);  
-        let a =scanf(&apos;%S&apos;) 
+        <h2 id="P00"><a href="#P00" class="headerlink" title="P00"></a>P00</h2><h3 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h3><a id="more"></a>
+<ul>
+<li><p>OSI/RM体系结构==&gt;法律上的国际标准</p>
+</li>
+<li><p>TCP/IP体系结构==&gt;事实上国际的标准</p>
+</li>
+<li><p>五层协议体系结构==&gt;适用于教学<br><img src="https://s2.ax1x.com/2020/02/26/3UcmqA.png" alt="计算机网络体系结构"></p>
+</li>
+<li><p>使用IP协议 物理层进行封装<br><img src="https://s2.ax1x.com/2020/02/26/3Ug00A.png" alt="数据包在互联网中传输"></p>
+</li>
+</ul>
+<hr>
+<h2 id="P01"><a href="#P01" class="headerlink" title="P01"></a>P01</h2><h3 id="Packet-Ttacer的简单使用"><a href="#Packet-Ttacer的简单使用" class="headerlink" title="Packet Ttacer的简单使用"></a>Packet Ttacer的简单使用</h3><!-- more -->
+<p><img src="https://s2.ax1x.com/2020/02/26/3Ugb1U.png" alt="Packet Ttacer的简单使用"></p>
+<ul>
+<li>配置三台PC 和一台集线器<br><img src="https://s2.ax1x.com/2020/02/26/3UR8xO.png" alt=""></li>
+<li>配置好IP<br><img src="https://s2.ax1x.com/2020/02/26/3UR3RK.png" alt=""></li>
+<li>选择数据包从PC0发送到PC1</li>
+<li>选择仿真模式 点击捕获可以在右侧看到发生的事件<br><img src="https://s2.ax1x.com/2020/02/26/3URKaR.png" alt=""></li>
+<li>点击 lnfo 可以查看数据包的封装细节<br><img src="https://s2.ax1x.com/2020/02/26/3URjF1.png" alt=""></li>
+</ul>
+<hr>
 
-        if(a===&apos;y&apos;||a===&apos;Y&apos;){
-            qian-=qian
-            console.log(&apos;已全部取出余额为：&apos;,qian,&apos;回车返回&apos;)
-            scanf(&apos;%d&apos;)
-        }if(a===&apos;n&apos;||a===&apos;N&apos;){
-            console.log(&apos;取消取出行为，当前余额为：&apos;,qian,&apos;回车返回&apos; )
-            scanf(&apos;%d&apos;)
-        }
-
-    }else{
-        qian -= q
-        console.log(&apos;取出成功，回车返回&apos;)  
-        scanf(&apos;%d&apos;) 
-    }  }
-}
-if(code === 3){
-    console.log(&apos;当前余额:&apos;,qian)
-    console.log(&apos;显示成功，回车返回&apos;);
-    scanf(&apos;%d&apos;)
-}
-if(code ===  4){
-    console.log(&apos;程序退出&apos;);
-    break;
-}</code></pre><h2 id><a href="#" class="headerlink" title="}"></a>}</h2>
       
     </div>
     
@@ -361,33 +344,11 @@ if(code ===  4){
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Node/" rel="tag"># Node</a>
-          
-        </div>
-      
 
       
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/02/25/%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C011/" rel="prev" title="仿真实验011">
-                仿真实验011 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
       
 
       
@@ -461,7 +422,7 @@ if(code ===  4){
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -469,15 +430,6 @@ if(code ===  4){
 
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                
-              </div>
             
 
           </nav>
@@ -507,7 +459,7 @@ if(code ===  4){
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">}</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#P00"><span class="nav-number">1.</span> <span class="nav-text">P00</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机网络体系结构"><span class="nav-number">1.1.</span> <span class="nav-text">计算机网络体系结构</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P01"><span class="nav-number">2.</span> <span class="nav-text">P01</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Packet-Ttacer的简单使用"><span class="nav-number">2.1.</span> <span class="nav-text">Packet Ttacer的简单使用</span></a></li></ol></li></ol></div>
             
 
           </div>
